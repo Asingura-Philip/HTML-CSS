@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-evenly;
+    align-items: center;*/
+    background-color: aqua;
+    min-height: 100vh;
+    
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: bisque;  
+    text-align: center;
+    justify-content: center;
+}
+nav{
+    background-color: rgb(11, 201, 137);
+    color: rgb(43, 40, 36);
+    padding: 0.5rem;
+    /*display: flex;
+    justify-content: center;*/
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+ul a::hover, nav a::focus{
+    color: chartreuse;
+}
+article{
+    width: 400px;
+    height: 400px; 
+}
+main {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(128, 128, 128);
+    padding: 1rem;
+    justify-content: space-evenly;
+    gap: 1.5 rem;
+}
+footer{
+    position: sticky;
+    bottom: 0;
+    background-color: bisque;
+    text-align: center;
+}
+.card {
+    scroll-margin-top: 8rem ;
+    width: min(100%, 500px);
+    border: 2px solid rgb(49, 204, 191);
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: space-evenly;
+}
+.card figure{
+display: flex;
+flex-flow: column nowrap;
+}
+.card img{
+    border: 5px double black;
+    border-radius: 40%;
+}
