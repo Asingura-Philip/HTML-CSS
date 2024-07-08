@@ -1,0 +1,13 @@
+main{
+    background-color: rgb(88, 116, 141);
+    width: 500px;
+    height: 500px;
+    border-color: rgb(72, 87, 82);
+    
+    border-radius: 30px;
+    
+}
+div{
+    text-align: center;
+    
+}
