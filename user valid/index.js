@@ -35,3 +35,38 @@ button.addEventListener("mouseout",function(){
     newDiv.style.backgroundColor = "red"
     newDiv.textContent = "bear"
 })
+
+let box = document.createElement("div")
+document.body.appendChild(box)
+box.innerText = "the box"
+box.style.borderRadius = "20px"
+box.style.backgroundColor = "yellow"
+box.style.borderStyle = "block"
+box.style.margin = "black"
+box.style.width = "400px"
+box.style.height = "400px"
+
+let car = document.createElement("div")
+box.appendChild(car)
+car.style.backgroundColor = "red"
+car.innerText = "the car"
+car.style.height = "100px"
+
+let truck = document.createElement("div")
+box.appendChild(truck)
+truck.innerText = "the truck"
+truck.style.backgroundColor = "blue"
+truck.style.height = "100px"
+
+let driver = document.createElement("button")
+car.appendChild(driver)
+driver.innerText = "car driver"
+
+driver.addEventListener("click",function(){
+    let pat = document.createElement("div")
+    box.appendChild(pat)
+    pat.innerText = "new div"
+    pat.style.backgroundColor = "pink"
+    pat.style.height = "20px"
+    pat.style.width = "100px"
+})
