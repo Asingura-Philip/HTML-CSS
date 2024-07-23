@@ -66,7 +66,17 @@ driver.addEventListener("click",function(){
     let pat = document.createElement("div")
     box.appendChild(pat)
     pat.innerText = "new div"
+    pat.setAttribute("class","tempo")
     pat.style.backgroundColor = "pink"
     pat.style.height = "20px"
     pat.style.width = "100px"
+})
+
+let truckDriver = document.createElement("button")
+truck.appendChild(truckDriver)
+truckDriver.innerText = "truck driver"
+
+truckDriver.addEventListener("click",function(){
+    let minus = document.querySelector(".tempo")
+    minus.remove()
 })
