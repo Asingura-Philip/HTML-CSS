@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1900px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 25px 0;
+    /* background-color: blue; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo span{
+    color: yellow;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{ 
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.home{
+    display: flex;
+    background: url(/images/retro_computer.jpg)  center;
+    height: 100vh;
+    color:#ffffff;
+    min-height: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.home .max-width{
+    margin: auto 0 auto 150px;
+    height: 500px;
+}
+.home .home-content .text-1{
+    font-size: 30px;
+    
+}
+.home .home-content .text-2{
+    font-size: 80px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin:5px;
+}
+.home .home-content .text-3 span{
+    color: yellow;
+    font-weight: 500;
+}
